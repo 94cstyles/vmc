@@ -9,6 +9,11 @@
     "src",
     "packages"
   ],
+  "keywords": [
+    "vue",
+    "mobile",
+    "component"
+  ],
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js"
