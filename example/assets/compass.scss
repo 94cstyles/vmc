@@ -1,0 +1,14 @@
+@mixin parent-status($status, $parent) {
+  $selector: &;
+  @each $list in & {
+    @if length($list) > 1 {
+      $parent: nth($list, length($list) - 1);
+      $selector: selector-replace($selector, $parent, $parent + $status);
+    } @else {
+      $selector: $parent + $status + ' ' + $selector
+    }
+  }
+  @at-root #{$selector} {
+    @content;
+  }
+}

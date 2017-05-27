@@ -1,0 +1,70 @@
+{
+  "name": "vmc",
+  "version": "1.0.0",
+  "description": "vue mobile components",
+  "main": "lib/index.js",
+  "style": "lib/style.css",
+  "files": [
+    "lib",
+    "src",
+    "packages"
+  ],
+  "scripts": {
+    "dev": "node build/dev-server.js",
+    "build": "node build/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/94cstyles/vmc.git"
+  },
+  "author": "cstyles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/94cstyles/vmc/issues"
+  },
+  "homepage": "https://github.com/94cstyles/vmc#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.1",
+    "del": "^2.2.2",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-html": "^2.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eventsource-polyfill": "^0.9.6",
+    "express": "^4.15.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "html-webpack-plugin": "^2.28.0",
+    "http-proxy-middleware": "^0.17.4",
+    "node-sass": "^4.5.3",
+    "opn": "^5.0.0",
+    "ora": "^1.2.0",
+    "prismjs": "^1.6.0",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.18.0",
+    "url-loader": "^0.5.8",
+    "vue": "^2.3.3",
+    "vue-loader": "^12.1.0",
+    "vue-markdown": "^2.1.3",
+    "vue-router": "^2.5.3",
+    "vue-style-loader": "^3.0.1",
+    "vue-template-compiler": "^2.3.3",
+    "webpack": "^2.6.0",
+    "webpack-dev-middleware": "^1.10.2",
+    "webpack-hot-middleware": "^2.18.0"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "es6-promise": "^4.1.0",
+    "iphone-inline-video": "^2.0.2"
+  }
+}

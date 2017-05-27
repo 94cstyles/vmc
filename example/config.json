@@ -1,0 +1,87 @@
+[
+  {
+    "path": "/popup",
+    "name": "Popup",
+    "title": "弹出层"
+  },
+  {
+    "path": "/indicator",
+    "name": "Indicator",
+    "title": "加载提示框"
+  },
+  {
+    "path": "/toast",
+    "name": "Toast",
+    "title": "消息提示框"
+  },
+  {
+    "path": "/alert",
+    "name": "Alert",
+    "title": "弹出框"
+  },
+  {
+    "path": "/actionsheet",
+    "name": "Action Sheet",
+    "title": "操作菜单"
+  },
+  {
+    "path": "/dropdown",
+    "name": "Drop Down",
+    "title": "下拉选择"
+  },
+  {
+    "path": "/uploader",
+    "name": "Uploader",
+    "title": "文件上传"
+  },
+  {
+    "path": "/virtual-scroll",
+    "name": "Virtual Scroll",
+    "title": "虚拟滚动"
+  },
+  {
+    "path": "/infinite-scroll",
+    "name": "Infinite Scroll",
+    "title": "无限滚动"
+  },
+  {
+    "path": "/lazyload",
+    "name": "Lazy Load",
+    "title": "懒加载"
+  },
+  {
+    "path": "/outer-touch",
+    "name": "Outer Touch",
+    "title": "Outer Touch"
+  },
+  {
+    "path": "/doc/storage",
+    "name": "Storage",
+    "type": "doc"
+  },
+  {
+    "path": "/doc/http",
+    "name": "HTTP",
+    "type": "doc"
+  },
+  {
+    "path": "/doc/asyncdata",
+    "name": "Async Data",
+    "type": "doc"
+  },
+  {
+    "path": "/doc/emitter",
+    "name": "Emitter",
+    "type": "doc"
+  },
+  {
+    "path": "/music",
+    "name": "Music",
+    "title": "音频播放"
+  },
+  {
+    "path": "/player",
+    "name": "Player",
+    "title": "视频播放"
+  }
+]
